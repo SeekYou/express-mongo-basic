@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      .container{
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <form action="http://localhost:3000/new_post" method="post">
+      <label>Title:</label><input type="text" class="form-control" name="title"><br>
+      <label>Introduction:</label><input type="text" class="form-control" name="introduction"><br>
+      <label>Poster:</label><input type="text" class="form-control" name="poster"><br>
+      <label>Rating:</label><input type="text" class="form-control" name="rating"><br>
+      <input type="submit" class="btn btn-default" id="submit" value="Submit">
+    </form>
+  </div>
+  </body>
+</html>
